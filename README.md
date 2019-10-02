@@ -4,7 +4,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-10-01 ter 16:55 -->
+<!-- 2019-10-01 ter 21:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -233,45 +233,45 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge955d7e">1. Classes</a>
+<li><a href="#org149c9b7">1. Classes</a>
 <ul>
-<li><a href="#orgde61e70">1.1. Definir uma classe</a></li>
-<li><a href="#org2f54565">1.2. Definindo objetos</a></li>
-<li><a href="#org676ddb3">1.3. Utilizando métodos</a></li>
-<li><a href="#org5a0b5e1">1.4. Modificador de acesso</a></li>
-<li><a href="#org6a5dc0c">1.5. Construtor</a></li>
+<li><a href="#orgc8533be">1.1. Definir uma classe</a></li>
+<li><a href="#orgc0aae0e">1.2. Definindo objetos</a></li>
+<li><a href="#org81594d1">1.3. Utilizando métodos</a></li>
+<li><a href="#org2124dec">1.4. Modificador de acesso</a></li>
+<li><a href="#orgfddfdf0">1.5. Construtor</a></li>
 </ul>
 </li>
-<li><a href="#orgb3ab9d3">2. Mysqli orientado a objetos</a>
+<li><a href="#org4e01ab4">2. Mysqli orientado a objetos</a>
 <ul>
-<li><a href="#orgc1d18ae">2.1. Abrindo a conexão</a></li>
-<li><a href="#org4494eb6">2.2. Fechar a conexão</a></li>
-<li><a href="#orge0fe419">2.3. Exercício 1</a></li>
-<li><a href="#org3445f3c">2.4. Criando banco de dados</a></li>
-<li><a href="#orgffd9083">2.5. Exercício 2</a></li>
-<li><a href="#org2664dad">2.6. Criando tabelas</a></li>
-<li><a href="#orgec5d3f7">2.7. Exercício 3</a></li>
-<li><a href="#org2a1707f">2.8. Inserindo dados</a></li>
-<li><a href="#org15ae09a">2.9. Criptografia</a></li>
-<li><a href="#orgea6e4fe">2.10. Exercício 4</a></li>
-<li><a href="#org894ca54">2.11. Selecionando dados</a></li>
-<li><a href="#org58fb8f5">2.12. Exercício 5</a></li>
-<li><a href="#orgde0ec04">2.13. Exercício 6</a></li>
-<li><a href="#orgb01fba8">2.14. Exercício 7</a></li>
-<li><a href="#org60aad75">2.15. Exercício 8</a></li>
-<li><a href="#org8b94a55">2.16. Exercício 9</a></li>
+<li><a href="#orgdf1ce35">2.1. Abrindo a conexão</a></li>
+<li><a href="#orga9ed1ef">2.2. Fechar a conexão</a></li>
+<li><a href="#orgef43aa4">2.3. Exercício 1</a></li>
+<li><a href="#org512ee87">2.4. Criando banco de dados</a></li>
+<li><a href="#orgedc2ea5">2.5. Exercício 2</a></li>
+<li><a href="#org79c21a2">2.6. Criando tabelas</a></li>
+<li><a href="#org8eb62e0">2.7. Exercício 3</a></li>
+<li><a href="#orgc4d5ce6">2.8. Inserindo dados</a></li>
+<li><a href="#orgfbe751c">2.9. Criptografia</a></li>
+<li><a href="#orgaf2227c">2.10. Exercício 4</a></li>
+<li><a href="#org33908b5">2.11. Selecionando dados</a></li>
+<li><a href="#org728feec">2.12. Exercício 5</a></li>
+<li><a href="#orgb09df94">2.13. Exercício 6</a></li>
+<li><a href="#orge93a97c">2.14. Exercício 7</a></li>
+<li><a href="#orgeb01153">2.15. Exercício 8</a></li>
+<li><a href="#orgd34fca4">2.16. Exercício 9</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge955d7e" class="outline-2">
-<h2 id="orge955d7e"><span class="section-number-2">1</span> Classes</h2>
+<div id="outline-container-org149c9b7" class="outline-2">
+<h2 id="org149c9b7"><span class="section-number-2">1</span> Classes</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgde61e70" class="outline-3">
-<h3 id="orgde61e70"><span class="section-number-3">1.1</span> Definir uma classe</h3>
+<div id="outline-container-orgc8533be" class="outline-3">
+<h3 id="orgc8533be"><span class="section-number-3">1.1</span> Definir uma classe</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 A palavra chave <b>class</b> define uma classe em PHP:
@@ -322,8 +322,8 @@ class Carro {
 </div>
 </div>
 
-<div id="outline-container-org2f54565" class="outline-3">
-<h3 id="org2f54565"><span class="section-number-3">1.2</span> Definindo objetos</h3>
+<div id="outline-container-orgc0aae0e" class="outline-3">
+<h3 id="orgc0aae0e"><span class="section-number-3">1.2</span> Definindo objetos</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Definidas as classes podemos criar objetos usando <b>new</b>:
@@ -355,8 +355,8 @@ $ferrari = new Carro();
 </div>
 </div>
 
-<div id="outline-container-org676ddb3" class="outline-3">
-<h3 id="org676ddb3"><span class="section-number-3">1.3</span> Utilizando métodos</h3>
+<div id="outline-container-org81594d1" class="outline-3">
+<h3 id="org81594d1"><span class="section-number-3">1.3</span> Utilizando métodos</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 Criados os objetos podemos utilizar os métodos usando <b>-&gt;</b>:
@@ -378,8 +378,8 @@ echo $ferrari-&gt;get_velocidade();
 </div>
 </div>
 
-<div id="outline-container-org5a0b5e1" class="outline-3">
-<h3 id="org5a0b5e1"><span class="section-number-3">1.4</span> Modificador de acesso</h3>
+<div id="outline-container-org2124dec" class="outline-3">
+<h3 id="org2124dec"><span class="section-number-3">1.4</span> Modificador de acesso</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
 Podemos modificar o tipo de acesso das propriedades da classe e dos métodos:
@@ -418,8 +418,8 @@ echo $ferrari-&gt;velocidade;
 </div>
 </div>
 
-<div id="outline-container-org6a5dc0c" class="outline-3">
-<h3 id="org6a5dc0c"><span class="section-number-3">1.5</span> Construtor</h3>
+<div id="outline-container-orgfddfdf0" class="outline-3">
+<h3 id="orgfddfdf0"><span class="section-number-3">1.5</span> Construtor</h3>
 <div class="outline-text-3" id="text-1-5">
 <p>
 A função __construct permite inicializar uma propriedade de um objeto no momento da criação do objeto.
@@ -455,12 +455,12 @@ echo $ferrari-&gt;velocidade; // Começa com 10
 </div>
 
 
-<div id="outline-container-orgb3ab9d3" class="outline-2">
-<h2 id="orgb3ab9d3"><span class="section-number-2">2</span> Mysqli orientado a objetos</h2>
+<div id="outline-container-org4e01ab4" class="outline-2">
+<h2 id="org4e01ab4"><span class="section-number-2">2</span> Mysqli orientado a objetos</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgc1d18ae" class="outline-3">
-<h3 id="orgc1d18ae"><span class="section-number-3">2.1</span> Abrindo a conexão</h3>
+<div id="outline-container-orgdf1ce35" class="outline-3">
+<h3 id="orgdf1ce35"><span class="section-number-3">2.1</span> Abrindo a conexão</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Antes de acessar os dados em um banco de dados MySQL, você precisa se conectar ao servidor:
@@ -490,8 +490,8 @@ echo "Conexão realizada com sucesso!";
 </div>
 
 
-<div id="outline-container-org4494eb6" class="outline-3">
-<h3 id="org4494eb6"><span class="section-number-3">2.2</span> Fechar a conexão</h3>
+<div id="outline-container-orga9ed1ef" class="outline-3">
+<h3 id="orga9ed1ef"><span class="section-number-3">2.2</span> Fechar a conexão</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Quando o script termina, a conexão com o banco de dados é fechada automaticamente. Mas podemos fechá-la antes:
@@ -504,8 +504,8 @@ $conexao-&gt;close();
 </div>
 </div>
 
-<div id="outline-container-orge0fe419" class="outline-3">
-<h3 id="orge0fe419"><span class="section-number-3">2.3</span> Exercício 1</h3>
+<div id="outline-container-orgef43aa4" class="outline-3">
+<h3 id="orgef43aa4"><span class="section-number-3">2.3</span> Exercício 1</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 Crie uma página php chamada (teste.php) que verifica se a conexão com o servidor de banco de dados está sendo feita corretamente utilizando mysqli orientado a objetos.
@@ -513,8 +513,8 @@ Crie uma página php chamada (teste.php) que verifica se a conexão com o servidor
 </div>
 </div>
 
-<div id="outline-container-org3445f3c" class="outline-3">
-<h3 id="org3445f3c"><span class="section-number-3">2.4</span> Criando banco de dados</h3>
+<div id="outline-container-org512ee87" class="outline-3">
+<h3 id="org512ee87"><span class="section-number-3">2.4</span> Criando banco de dados</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 Para criar o banco em PHP você efetua uma consulta (query) com o comando de criação:
@@ -578,8 +578,8 @@ $conexao-&gt;close();
 </div>
 </div>
 
-<div id="outline-container-orgffd9083" class="outline-3">
-<h3 id="orgffd9083"><span class="section-number-3">2.5</span> Exercício 2</h3>
+<div id="outline-container-orgedc2ea5" class="outline-3">
+<h3 id="orgedc2ea5"><span class="section-number-3">2.5</span> Exercício 2</h3>
 <div class="outline-text-3" id="text-2-5">
 <p>
 Criaremos um sistema de listas, o usuário fará um cadastro no sistema, efetuará login, cadastrará uma lista e criará itens da lista. Portanto vamos precisar de um banco chamado <b>sistema</b>.
@@ -591,8 +591,8 @@ Escreva uma página em php (cria.php) que cria um banco de dados chamado: <b>sist
 </div>
 </div>
 
-<div id="outline-container-org2664dad" class="outline-3">
-<h3 id="org2664dad"><span class="section-number-3">2.6</span> Criando tabelas</h3>
+<div id="outline-container-org79c21a2" class="outline-3">
+<h3 id="org79c21a2"><span class="section-number-3">2.6</span> Criando tabelas</h3>
 <div class="outline-text-3" id="text-2-6">
 <p>
 O método mysqli para executar um comando SQL é <b>query()</b> e deve ser executado em um objeto mysqli:
@@ -646,8 +646,8 @@ $conexao-&gt;close();
 </div>
 </div>
 
-<div id="outline-container-orgec5d3f7" class="outline-3">
-<h3 id="orgec5d3f7"><span class="section-number-3">2.7</span> Exercício 3</h3>
+<div id="outline-container-org8eb62e0" class="outline-3">
+<h3 id="org8eb62e0"><span class="section-number-3">2.7</span> Exercício 3</h3>
 <div class="outline-text-3" id="text-2-7">
 <p>
 Criar as Tabelas:
@@ -665,11 +665,19 @@ Todas as tabelas possuem a coluna <b>id</b>.
 <b>id_pessoa</b> faz a ligação entre listas e pessoas.
 <b>id_lista</b> faz a ligação entre itens e listas.
 </p>
+
+<p>
+Veja o esquema das tabelas aqui:
+</p>
+
+<p>
+<a href="https://dbdesigner.page.link/dQGk">https://dbdesigner.page.link/dQGk</a>
+</p>
 </div>
 </div>
 
-<div id="outline-container-org2a1707f" class="outline-3">
-<h3 id="org2a1707f"><span class="section-number-3">2.8</span> Inserindo dados</h3>
+<div id="outline-container-orgc4d5ce6" class="outline-3">
+<h3 id="orgc4d5ce6"><span class="section-number-3">2.8</span> Inserindo dados</h3>
 <div class="outline-text-3" id="text-2-8">
 <p>
 Depois de criar o banco e a tabela podemos adicionar dados.
@@ -748,8 +756,8 @@ $conexao-&gt;close();
 </div>
 </div>
 
-<div id="outline-container-org15ae09a" class="outline-3">
-<h3 id="org15ae09a"><span class="section-number-3">2.9</span> Criptografia</h3>
+<div id="outline-container-orgfbe751c" class="outline-3">
+<h3 id="orgfbe751c"><span class="section-number-3">2.9</span> Criptografia</h3>
 <div class="outline-text-3" id="text-2-9">
 <p>
 Podemos usar a função <b>hash()</b> para criptografar utilizando um algoritmo. Para usar sha256 que produz 64 caracteres podemos usar:
@@ -768,8 +776,8 @@ Se salvar $senha_criptografada no banco de dados, vai precisar utilizar a função
 </div>
 
 
-<div id="outline-container-orgea6e4fe" class="outline-3">
-<h3 id="orgea6e4fe"><span class="section-number-3">2.10</span> Exercício 4</h3>
+<div id="outline-container-orgaf2227c" class="outline-3">
+<h3 id="orgaf2227c"><span class="section-number-3">2.10</span> Exercício 4</h3>
 <div class="outline-text-3" id="text-2-10">
 <p>
 Crie uma página que cadastre o usuário. A senha deve ser criptografada antes de salvar no banco.
@@ -777,8 +785,8 @@ Crie uma página que cadastre o usuário. A senha deve ser criptografada antes de 
 </div>
 </div>
 
-<div id="outline-container-org894ca54" class="outline-3">
-<h3 id="org894ca54"><span class="section-number-3">2.11</span> Selecionando dados</h3>
+<div id="outline-container-org33908b5" class="outline-3">
+<h3 id="org33908b5"><span class="section-number-3">2.11</span> Selecionando dados</h3>
 <div class="outline-text-3" id="text-2-11">
 <p>
 Para selecionar dados usamos:
@@ -828,8 +836,8 @@ $conexao-&gt;close();
 </div>
 </div>
 
-<div id="outline-container-org58fb8f5" class="outline-3">
-<h3 id="org58fb8f5"><span class="section-number-3">2.12</span> Exercício 5</h3>
+<div id="outline-container-org728feec" class="outline-3">
+<h3 id="org728feec"><span class="section-number-3">2.12</span> Exercício 5</h3>
 <div class="outline-text-3" id="text-2-12">
 <p>
 Crie uma página de login para o usuário. Quando o usuário acerta o E-mail e senha você deve salvar o nome e o id dele na sessão, exemplo:
@@ -844,8 +852,8 @@ $_SESSION['id'] = $linha['id'];
 </div>
 </div>
 
-<div id="outline-container-orgde0ec04" class="outline-3">
-<h3 id="orgde0ec04"><span class="section-number-3">2.13</span> Exercício 6</h3>
+<div id="outline-container-orgb09df94" class="outline-3">
+<h3 id="orgb09df94"><span class="section-number-3">2.13</span> Exercício 6</h3>
 <div class="outline-text-3" id="text-2-13">
 <p>
 Crie a página que cria uma lista, a página deve verificar se o usuário está logado:
@@ -861,8 +869,8 @@ Se o usuário estiver logado o usuário deve fornecer um nome para a lista e você 
 </div>
 </div>
 
-<div id="outline-container-orgb01fba8" class="outline-3">
-<h3 id="orgb01fba8"><span class="section-number-3">2.14</span> Exercício 7</h3>
+<div id="outline-container-orge93a97c" class="outline-3">
+<h3 id="orge93a97c"><span class="section-number-3">2.14</span> Exercício 7</h3>
 <div class="outline-text-3" id="text-2-14">
 <p>
 Crie uma página que mostra as listas criadas, quando o usuário seleciona uma lista você adiciona o id da lista na sessão:
@@ -874,8 +882,8 @@ $_SESSION['id_lista'] = $lista_selecionada;
 </div>
 </div>
 
-<div id="outline-container-org60aad75" class="outline-3">
-<h3 id="org60aad75"><span class="section-number-3">2.15</span> Exercício 8</h3>
+<div id="outline-container-orgeb01153" class="outline-3">
+<h3 id="orgeb01153"><span class="section-number-3">2.15</span> Exercício 8</h3>
 <div class="outline-text-3" id="text-2-15">
 <p>
 Crie uma página que adiciona itens à lista selecionada no exercício anterior. Lembre-se de usar o id da lista que está gravado na sessão. 
@@ -883,8 +891,8 @@ Crie uma página que adiciona itens à lista selecionada no exercício anterior. Le
 </div>
 </div>
 
-<div id="outline-container-org8b94a55" class="outline-3">
-<h3 id="org8b94a55"><span class="section-number-3">2.16</span> Exercício 9</h3>
+<div id="outline-container-orgd34fca4" class="outline-3">
+<h3 id="orgd34fca4"><span class="section-number-3">2.16</span> Exercício 9</h3>
 <div class="outline-text-3" id="text-2-16">
 <p>
 Crie uma página que permite o compartilhamento da lista atual com um dos usuários do sistema. O usuário digita o email do usuário com quem a lista será compartilhada.
@@ -894,7 +902,7 @@ Crie uma página que permite o compartilhamento da lista atual com um dos usuário
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2019-10-01 ter 16:55</p>
+<p class="date">Created: 2019-10-01 ter 21:47</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
